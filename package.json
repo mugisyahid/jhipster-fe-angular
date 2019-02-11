@@ -149,7 +149,6 @@
         "clean-www": "rimraf build//www/app/{src,build/}",
         "e2e": "protractor src/test/javascript/protractor.conf.js",
         "postinstall-cli": "webdriver-manager update --gecko false",
-        "postinstall": "ng build --aot -prod",
         "start": "http-server dist/",
         "heroku-prebuild": "npm install -g http-server",
         "heroku-postbuild": "ng build --env=prod",
